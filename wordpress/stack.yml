@@ -6,7 +6,7 @@ services:
       - 'db_data:/var/lib/mysql'
     restart: always
     networks:
-      -net
+      - net
     environment:
       MYSQL_ROOT_PASSWORD: '${MYSQL_DATABASE_PASSWORD}'
       MYSQL_DATABASE: wordpress
@@ -37,7 +37,7 @@ services:
         traefik.enable: 'true'
         traefik.http.routers.${APP_NAME}-http.middlewares: https-redirect
         traefik.http.routers.${APP_NAME}-http.entrypoints: http
-        
+
 volumes:
   db_data: null
 
