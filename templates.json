@@ -1033,7 +1033,7 @@
         {
             "type": 2,
             "title": "Wordpress",
-            "description": "Wordpress setup with a MySQL database2",
+            "description": "Wordpress setup with a MySQL database2x2",
             "note": "Deploys a Wordpress instance connected to a MySQL database.",
             "categories": [
                 "CMS"
