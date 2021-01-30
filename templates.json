@@ -2,7 +2,7 @@
     "version": "2",
     "templates": [
         {
-            "type": 3,
+            "type": 2,
             "title": "Wordpress",
             "description": "Wordpress setup with a MySQL database",
             "note": "Deploys a Wordpress instance connected to a MySQL database.",
